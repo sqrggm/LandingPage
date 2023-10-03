@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.js">
+    <title>Profile SQUARE</title>
+</head>
+<body id="homepage">
+
+                                   <!-- icones_area_de_trabalho -->
+
+<div id="profile_icon">
+<button id="buttom_profile_icon" onclick="document.getElementById('profile_box').style.display='inline-block'">
+    <img src="assets/images/Windows 95 ALL ICONS v1.1/All [Without duplicates]/User program.ico" width="50px" height="50px" alt="Profile">
+    <span id="profile_icon_text">Perfil</span>
+</button>
+</div>
+
+
+<div id="music_icon">
+
+<button id="musicbox_icon" onclick="document.getElementById('Music_box').style.display='inline-block'">
+<img src="assets/images/Windows 95 ALL ICONS v1.1/All [Without duplicates]/Music Disc 2.ico" width="50px" height="50px" alt="">
+<span id="music_icon_text">ost.mp3</span>
+</button>
+
+<div id="git_hub_icon">
+<a href="https://github.com/SquareCal" target="_blank">
+    <button id="git_hub_icon">
+        <img src="assets/images/Windows 95 ALL ICONS v1.1/All [Without duplicates]/Link on Document with Earth.ico" alt="" width="45px" height="45px">
+        <span>Git Hub</span>
+    </button>
+</a>
+
+</div>
+
+<div id="formulario_icon">
+<button id="formulario_icon" onclick="document.getElementById('Serviços').style.display='inline-block'">
+    <img src="assets/images/Windows 95 ALL ICONS v1.1/All [Without duplicates]/Web-document program.ico" alt="" width="50px" height="50px">
+    <span>Formulario</span>
+</button>
+
+
+</div>
+</div>
+
+
+                                         <!-- perfil -->
+
+
+<div id="profile_box" style="display: none;">
+    <button id="profile_box_close_buttom" onclick="document.getElementById('profile_box').style.display='none'">
+        <img src="assets/images/Windows 95 ALL ICONS v1.1/windows button/Close icon.jpg" alt="" width="25px" height="25px">
+    </button>
+    <img src="assets/images/images misc/357769721_217631221235384_6519525877209684002_n.jpeg"  width="100px" height="100px">
+
+   <h2 id="profile_box_text">
+    <br>Nome: Guilherme Guimarães Martins
+    <br>
+    <br>Idade: 18
+    <br>
+    <br>Origem: Ipatinga-MG
+    <br>
+    <br>Habilidades: Conhecimento basico em produção musical (FL-STUDIO), HTML e CSS além de proficiência em informatica.
+    <br>
+    <br>História: Nasci e morei 15 anos em Ipatinga-MG, me mudei em  2020 para o Espirito Santo indo morar junto ao meu pai, meu principal objetivo no curso é adquirir conhecimentos na area para entender melhor oque me cerca e atuar na área.
+    <br>
+    <br>Hobbies: Meus principal passa-tempo é passar o dia jogando Taiko no Tatsujin... (vulgo jogo de ritmo de tamborzinho) se a casa permitir.
+    <br>
+    <br>Nota: "The Black Sun. Thank you for giving me your power.
+    The sunlight that rains down on the Earth is a nuclear furnace that will create new atoms.
+    My ultimate nuclear fusion will burn up every body, heart, phantom, and fairy!"
+   </h2>
+
+
+</div>
+                                        <!-- Música -->
+
+<div id="Music_box" style="display: none;">
+    <button id="music_box_close_button" onclick="document.getElementById('Music_box').style.display='none'">
+        <img src="assets/images/Windows 95 ALL ICONS v1.1/windows button/Close icon.jpg" alt="" width="25px" height="25px">
+    </button>
+ <audio controls src="assets/audios/08. Retribution for the Eternal Night ~ Imperishable Night.mp3">
+ </audio>
+ </div>
+
+                                        <!-- Serviços -->
+
+
+
+<div id="Serviços" style="display: none;">
+    <button id="form_close_button" onclick="document.getElementById('Serviços').style.display='none'">
+        <img src="assets/images/Windows 95 ALL ICONS v1.1/windows button/Close icon.jpg" alt="" width="25x" height="25px">
+</button>
+    <h2>
+          Todos os valores são investimentos minimos!, os valores podem aumentar
+          devido a complexidade e prazo do projeto... para mais informações entre em contato
+          
+          Telefone: (27)99719-9560
+          
+    </h2>
+        
+<table border="2px" id="tabela">
+<thead>
+    <tr>
+        <th>Serviços</th>
+        <th>Valores</th>
+    </tr>
+</thead>
+   <tbody>
+    <tr>
+        <td>HTML5</td>
+        <td>R$:500.000,00</td>
+    </tr>
+    <tr>
+        <td>CSS</td>
+        <td>R$:120.000,00</td>
+    </tr>
+   </tbody>
+</table>
+<h2>Formulario para contratar o serviço</h2>
+<form id="formulario">
+    <input type="text" name="nome" placeholder="Seu nome">
+    <input type="email" name="email" placeholder="Seu email">
+    <input type="text" name="telefone" placeholder="telefone">
+    <input type="text" name="informação_contato" placeholder="informações adicionais">
+    <input type="submit" value="Enviar">
+</form>
+</div>
+<!--                   (
+ AAAAAaaaaaaaa!
+              (   ()   )
+    ) ________    //  )
+ ()  |\       \  //
+( \\__ \ ______\//
+   \__) |       |
+     |  |       |
+      \ |       |
+       \|_______|
+       //    \\
+      ((     ||
+       \\    ||
+     ( ()    ||
+      (      () ) ) -->
+</body>
+</html>

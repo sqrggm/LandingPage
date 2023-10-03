@@ -1,0 +1,249 @@
+#Title{
+
+text-align: center;
+
+}
+
+@font-face {
+    font-family: windows95;
+    src: url(assets/font/windows95/W95FA.otf);
+}
+
+#homepage{
+    
+background-color: #048484;
+
+}
+
+#box{
+    position: fixed;
+    margin-top: 15%;
+    margin-left: 32%;
+    border-top: solid #c0c0c0; width: 500px; 
+  background-color: #c0c0c0;
+  box-shadow: 0px -28px 0px 5px  #000082, 0 0 0 5px #000082, 6px 7px 0px 6px black;
+border-bottom: 25px solid #c0c0c0;
+border-left: 25px solid #c0c0c0;
+border: #c0c0c0;
+display: flex;
+text-align: center;
+font-family: windows95;
+align-items: flex-end;
+
+}
+
+#profiletext{
+    font-family: windows95;
+   
+   text-align: justify;
+
+}
+
+#buttom_nextpage{
+
+    position: fixed;
+
+margin-top: 25%;
+margin-left: 40%;
+top: 120%;
+
+}
+
+#close_button{
+    position: fixed;
+    bottom: 372px;
+    top: 15px;
+    left: 1075px;
+    font-size: 15px;
+    padding: 0;
+    background: 0;
+    border: 0;
+}
+
+/* home page */
+
+#homepage{
+    overflow: auto;
+background-color: #048484;
+
+}
+
+#profile_box{
+
+
+    margin-bottom: 35%;
+    margin-left: 35%;
+    border-top: solid #c0c0c0; width: 500px; 
+  background-color: #c0c0c0;
+  box-shadow: 0px -28px 0px 5px  #000082, 0 0 0 5px #000082, 6px 7px 0px 6px black;
+border-bottom: 25px solid #c0c0c0;
+border-left: 25px solid #c0c0c0;
+border: #c0c0c0;
+display: flex;
+
+}
+
+#profile_box_text{
+    
+font-family: windows95;
+margin-top: -10px;
+margin-left: 10px;
+margin-right: 10px;
+
+
+}
+
+#profile_icon{
+
+
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+
+}
+
+#profile_icon_text{
+margin-top: 10px;
+    font-family: windows95;
+
+}
+
+#buttom_profile_icon{
+
+border: 0;
+padding: 0;
+background: 0;
+
+}
+
+#profile_box_close_buttom{
+    
+position: absolute;
+    margin-left: 472px;
+    margin-top: -29px;
+    border: 0;
+    padding: 0;
+    background: 0;
+    
+}
+
+#Music_box{
+
+    margin-top: 5%;
+    margin-left: 35%;
+    border-top: solid #F1F3F4; width: 300px; 
+  background-color: #F1F3F4;
+  box-shadow: 0px -28px 0px 5px  #000082, 0 0 0 5px #000082, 6px 7px 0px 6px black;
+border-bottom: px solid #F1F3F4;
+border-left: 25px solid #F1F3F4;
+border: #F1F3F4;
+display: flex;
+
+}
+
+#musicbox_icon{
+margin-top: 20px;
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    padding: 0;
+    background: 0;
+
+
+}
+
+#music_icon_text{
+
+    margin-top: 10px;
+    font-family: windows95;
+
+}
+
+#music_box_close_button{
+
+
+    position: absolute;
+    margin-left: 274px;
+    margin-top: -29px;
+    border: 0;
+    padding: 0;
+    background: 0;
+}
+#git_hub_icon{
+
+font-family: windows95;
+    margin-top: 20px;
+    margin-right: 3px;
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    padding: 0;
+    background: 0;
+
+}
+
+a{
+
+text-decoration: none;
+
+}
+
+
+#Serviços{
+font-family: windows95;
+background-color: #c0c0c0;
+margin-top: 5%;
+margin-left: 35%;
+border-top: solid #c0c0c0; width: 300px; 
+background-color: #c0c0c0;
+box-shadow: 0px -28px 0px 5px  #000082, 0 0 0 5px #000082, 6px 7px 0px 6px black;
+border-bottom: px solid #c0c0c0;
+border-left: 25px solid #c0c0c0;
+border: #c0c0c0;
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+#form_close_button{
+
+    position: auto;
+    margin-left: 274px;
+    margin-top: -29px;
+    border: 0;
+    padding: 0;
+    background: 0;
+    display: flex;
+}
+#tabela{
+
+padding-left: 68px;
+padding-right: 70px;
+
+
+}
+
+#formulario_icon{
+    font-family: windows95;
+margin-top: 25px;
+border: 0;
+background: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+margin-left: 2.5px;
+
+}
+
+
+
+    
+
